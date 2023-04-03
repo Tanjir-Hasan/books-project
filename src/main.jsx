@@ -6,11 +6,28 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Home from './Home';
+import About from './About';
+import Books from './Books';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>
+    element: <Home></Home>,
+    children: [
+      {
+        path: "about",
+        element: <About></About>,
+      },
+      {
+        path: "books",
+        element: <Books></Books>
+      },
+      {
+        path: "",
+        element: "",
+      }
+    ]
   },
 ]);
 
