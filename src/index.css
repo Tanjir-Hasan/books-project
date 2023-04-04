@@ -6,3 +6,8 @@
 .my-container {
     @apply max-w-7xl mx-auto
 }
+
+.button-container {
+    @apply flex items-center;
+  }
+  
