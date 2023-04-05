@@ -11,11 +11,13 @@ import About from './About';
 import Books from './Books';
 import Banner from './Banner';
 import BookDetails from './BookDetails';
+import ErrorPage from './ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',

@@ -1,11 +1,9 @@
 import React from 'react';
-import { Link, useLoaderData } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Book = ({ book }) => {
-    const bookDetails = useLoaderData();
-    console.log(bookDetails)
     return (
-        <div>
+        <div className='border-2 border-neutral-200 hover:bg-slate-950 hover:opacity-25'>
             <Link to={`../book/${book.isbn13}`}>
                 <img src={book.image} alt="" />
             </Link>
