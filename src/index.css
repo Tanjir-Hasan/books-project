@@ -9,5 +9,12 @@
 
 .button-container {
     @apply flex items-center;
-  }
-  
+}
+
+.active {
+    @apply text-blue-700 mr-4 underline underline-offset-8;
+}
+
+.default {
+    @apply text-black mr-4 no-underline;
+}
