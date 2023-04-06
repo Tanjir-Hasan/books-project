@@ -8,7 +8,7 @@ Home page and About page animation used from --> https://lottiefiles.com/
 
 <hr>
 
-Responsive for mobile devices and large display.
+Used tailwind css. Responsive for only mobile devices and large display.
 
 <hr>
 
