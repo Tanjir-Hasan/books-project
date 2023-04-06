@@ -1,9 +1,10 @@
 # books-project
 
+api link --> https://api.itbook.store/
+
 <hr>
 
-api link --> https://api.itbook.store/
-Home page and About animation used from --> https://lottiefiles.com/
+Home page and About page animation used from --> https://lottiefiles.com/
 
 <hr>
 
