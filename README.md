@@ -12,4 +12,4 @@ Used tailwind css. Responsive for only mobile devices and large display.
 
 <hr>
 
-Hosted in Netlify --> https://astonishing-meringue-8005fb.netlify.app/
+Hosted in Netlify --> https://bibiliophiles-corner-th.netlify.app
